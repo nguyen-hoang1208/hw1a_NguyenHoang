@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>                               
+ <tiltle>   GoRestaurant software </tiltle>
+  function test_print(){
+
+         console.log(“test code”)
+
+ }
+ <head>
+
+
+
+
+
+
+ </html>
+
+
+
+
+
+
+
+
+
+
