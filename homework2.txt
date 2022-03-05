@@ -1,2 +1,7 @@
 1.Create your repo for your assignment 1.
 2 Create any file and use git addto add your file to the repository (Master branch).
+
+// Commit change for answer question 3, 4 below:
+
+3. Use git committo commit your change. Use a meaningful message (e.g., Added XXX file for YYY)
+4. Use git pushto send your change to your repository. 
