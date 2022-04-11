@@ -58,7 +58,7 @@ $(function(){
       var created_at=rowEl.find('.created_at').val();      //use rowEl to find created_at
 
       $.ajax({
-      url: '/arrayof3Items/'+'screen_name',                           //access id of data
+      url: '/arrayof3Items/'+ id,                           //access id of data
       method: 'PUT',
       contentType: 'application/json',
       data: JSON.stringify({screen_name: screen_name}),
@@ -95,4 +95,3 @@ $(function(){
     
                
     
-  

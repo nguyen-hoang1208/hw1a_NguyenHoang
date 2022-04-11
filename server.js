@@ -42,13 +42,13 @@ app.post('/arrayof3Items',function(req,res){
 })
     //Restful API PUT OR UPDATE
 
-app.put('/arrayof3Items/:screen_name',function(req,res){   
+app.put('/arrayof3Items/:id',function(req,res){   
   var id=req.params.id;                         //wrap id 
-  var screen_name=req.body.screen_name;      //wrap screen_name that input and story newscreen_name
+  var newscreen_name=req.body.screen_name;      //wrap screen_name that input and story newscreen_name
   var found=false;                          
   arrayof3Items.forEach(function(arrayof3Item,index){   //loop all items
-     if(!found&&arrayof3Item.screen_name==screen_name){                   
-        arrayof3Item.screen_name=screen_name;
+     if(!found&&arrayof3Item.id==Number(id)){                   
+        arrayof3Item.screen_name=newscreen_name;
      }
   })
      res.send('successfully updated data');   //message display when successfully updated
